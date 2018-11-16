@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CrazyJava/CrazyJava.iml" filepath="$PROJECT_DIR$/CrazyJava/CrazyJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day01/Day01.iml" filepath="$PROJECT_DIR$/Day01/Day01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day02/Day02.iml" filepath="$PROJECT_DIR$/Day02/Day02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day05/Day05.iml" filepath="$PROJECT_DIR$/Day05/Day05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise/Exercise.iml" filepath="$PROJECT_DIR$/Exercise/Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudyInCP/StudyInCP.iml" filepath="$PROJECT_DIR$/StudyInCP/StudyInCP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaSpace.iml" filepath="$PROJECT_DIR$/javaSpace.iml" />
+    </modules>
+  </component>
+</project>
