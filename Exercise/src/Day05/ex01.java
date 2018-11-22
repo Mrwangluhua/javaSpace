@@ -13,9 +13,8 @@ public class ex01 {
         int[] array = {34,23,45,66,77,87,54,23,45,67};
         int len = array.length;
         System.out.println("您的大乐透号码为：");
-        for (int i = 0; i < len; i++) {
-            System.out.print(array[i]+"\t");
-
+        for(int i :array){
+            System.out.print(i+"\t");
         }
     }
 }
