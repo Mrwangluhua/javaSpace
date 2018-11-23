@@ -15,7 +15,7 @@ import java.util.Set;
 	3.功能实现要求
 		(1)随便自己想怎么写,就怎么写(只要实现功能就可以)
 		*/
-public class Test02 {
+public class Test02_1 {
     public static void main(String[] args) {
         //2.现在将若干Student对象放入List中,请统计出每个班级的总分和平均分
         ArrayList<Student> students = new ArrayList<>();
