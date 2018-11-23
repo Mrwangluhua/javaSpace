@@ -1,6 +1,9 @@
 package Day09;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Set;
 
 /*练习二: 分拣的思想
 	1.要求:定义一个Student类
@@ -24,21 +27,34 @@ public class Test02 {
         students.add(new Student("gd","002",88.5));
         students.add(new Student("zx","002",90.5));
         students.add(new Student("gd","002",67.5));
-        students.add(new Student("ef","002",83.5));
-        students.add(new Student("hf","002",81.5));
-        int claNum1 =0,claNum2 = 0;
-        int scores1 = 0,scores2 = 0;
-        for(int i = 0;i<students.size();i++){
-            if(students.get(i).getNo().equals("001")){
-                claNum1++;
-                scores1+=students.get(i).getScore();
-            }else if(students.get(i).getNo().equals("002")){
-                claNum2++;
-                scores2+=students.get(i).getScore();
+        students.add(new Student("ef","003",83.5));
+        students.add(new Student("hf","003",81.5));
+        //创建一个存放班级号和班级学员的哈希表
+        HashMap<String, Integer> map = new HashMap<>();
+        HashMap<String, Double> zf = new HashMap<>();
+        for(Student student:students){
+            if(!map.containsKey(student.getNo())){
+                map.put(student.getNo(),1);
+                zf.put(student.getNo(),student.getScore());
+            }else{
+                int num = map.get(student.getNo());
+                num ++;
+                map.put(student.getNo(),num);
+                double zongf  = zf.get(student.getNo());
+                zongf+=student.getScore();
+                zf.put(student.getNo(),zongf);
             }
         }
-        System.out.println("001班级的总分是:"+scores1+",平均分是："+scores1/claNum1);
-        System.out.println("002班级的总分是:"+scores2+",平均分是："+scores2/claNum1);
+        showClassAverScore(map, zf);
+    }
 
+    public static void showClassAverScore(HashMap<String, Integer> map, HashMap<String, Double> zf) {
+        Set<String> set = map.keySet();
+        DecimalFormat df = new DecimalFormat("00.00");
+        for(String str  : set){
+            int num = map.get(str);
+            double scores  = zf.get(str);
+            System.out.println(str+"班的总分是："+scores+",平均分是："+df.format(scores/num));
+        }
     }
 }
