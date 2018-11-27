@@ -35,11 +35,6 @@ public class ChouJiang implements Runnable {
             Thread.interrupted();
         } else {
             int i = ra.nextInt(list.size());
-            try {
-                Thread.sleep(10);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
             System.out.println("抽奖箱" + Thread.currentThread().getName() + "...抽出了" + list.get(i) + "元..");
             list.remove(i);
         }
