@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349c7959-9923-4708-b40e-dac8aaa64a08" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/EveryDayExercise/src/Day06/Ex03.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/EveryDayExercise/src/Day06/JiaoTiChouJiang.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/EveryDayExercise/src/Day07/Test05FileSearch.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/EveryDayExercise/src/Day06/ChouJiang.java" afterPath="$PROJECT_DIR$/EveryDayExercise/src/Day06/ChouJiang.java" />
-      <change beforePath="$PROJECT_DIR$/out/production/EveryDayExercise/Day06/ChouJiang.class" afterPath="$PROJECT_DIR$/out/production/EveryDayExercise/Day06/ChouJiang.class" />
+      <change beforePath="$PROJECT_DIR$/EveryDayExercise/src/Day06/Ex03.java" afterPath="$PROJECT_DIR$/EveryDayExercise/src/Day06/Ex03.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/EveryDayExercise/Day06/Ex02.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,12 +64,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ex03.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ex03.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EveryDayExercise/src/Day06/Ex03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="378">
+              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test05FileSearch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EveryDayExercise/src/Day07/Test05FileSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,8 +89,8 @@
       <file leaf-file-name="JiaoTiChouJiang.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EveryDayExercise/src/Day06/JiaoTiChouJiang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-706">
-              <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="945">
+              <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,9 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/StudyInCP/src/Day07/Test01Random.java" />
-        <option value="$PROJECT_DIR$/StudyInCP/src/Day07/Test02Random.java" />
-        <option value="$PROJECT_DIR$/Exercise/src/Day07/ex01.java" />
         <option value="$PROJECT_DIR$/Exercise/src/Day07/Ex01.java" />
         <option value="$PROJECT_DIR$/Exercise/src/Day07/Ex03.java" />
         <option value="$PROJECT_DIR$/Exercise/src/Day07/Ex04.java" />
@@ -178,6 +186,9 @@
         <option value="$PROJECT_DIR$/EveryDayExercise/src/Day06/ChouJiang.java" />
         <option value="$PROJECT_DIR$/EveryDayExercise/src/Day06/JiaoTiChouJiang.java" />
         <option value="$PROJECT_DIR$/EveryDayExercise/src/Day06/Ex02.java" />
+        <option value="$PROJECT_DIR$/EveryDayExercise/src/Day06/Ex03.java" />
+        <option value="$PROJECT_DIR$/EveryDayExercise/src/Day07/Test01.java" />
+        <option value="$PROJECT_DIR$/EveryDayExercise/src/Day07/Test05FileSearch.java" />
       </list>
     </option>
   </component>
@@ -205,15 +216,16 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,13 +249,17 @@
               <item name="javaSpace" type="462c0819:PsiDirectoryNode" />
               <item name="EveryDayExercise" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Day06" type="462c0819:PsiDirectoryNode" />
+              <item name="Day07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaSpace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaSpace" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercise" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ex02 (1)">
+  <component name="RunManager" selected="Application.Test05FileSearch">
     <configuration name="Ex01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -320,14 +336,14 @@
       <module name="EveryDayExercise" />
       <envs />
     </configuration>
-    <configuration name="Ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="NKExercise.*" />
+          <option name="PATTERN" value="Day06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="NKExercise.Ex02" />
+      <option name="MAIN_CLASS_NAME" value="Day06.Ex03" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -336,26 +352,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Exercise" />
-      <envs />
-    </configuration>
-    <configuration name="Pvf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="NKExercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="NKExercise.Pvf" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Exercise" />
+      <module name="EveryDayExercise" />
       <envs />
     </configuration>
     <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -377,6 +374,25 @@
       <module name="Exercise" />
       <envs />
     </configuration>
+    <configuration name="Test05FileSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Day07.Test05FileSearch" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="EveryDayExercise" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -394,18 +410,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Test03" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Ex02" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Pvf" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Ex01 (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Ex02 (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Ex01 (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Ex02 (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Ex03" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test05FileSearch" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Ex02 (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Ex01 (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test03" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Pvf" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Ex02" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test05FileSearch" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Ex03" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Ex02 (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Ex01 (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test03" />
       </list>
     </recent_temporary>
   </component>
@@ -475,12 +491,13 @@
       <workItem from="1543242557391" duration="886000" />
       <workItem from="1543281063508" duration="1671000" />
       <workItem from="1543289725199" duration="1645000" />
-      <workItem from="1543299949053" duration="87000" />
+      <workItem from="1543299949053" duration="1454000" />
+      <workItem from="1543583906315" duration="94000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247452000" />
+    <option name="totallyTimeSpent" value="248913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
@@ -494,8 +511,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36206895" sideWeight="0.50323975" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39597315" sideWeight="0.49676025" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39597315" sideWeight="0.49676025" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -505,8 +522,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36702126" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -559,13 +576,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day02/src/Collection/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day02/src/Collection/Test02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -951,8 +961,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EveryDayExercise/src/Day06/JiaoTiChouJiang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-706">
-          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="945">
+          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -961,9 +971,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EveryDayExercise/src/Day06/Ex03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="378">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EveryDayExercise/src/Day07/Test05FileSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
