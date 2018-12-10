@@ -1,11 +1,7 @@
 package test01;
 
-import org.junit.Test;
-
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
@@ -15,13 +11,16 @@ import java.sql.Statement;
  * @param:
  */
 public class JdbcTest {
+    public static void main(String[] args) {
+
+ /*   }
     @Test
-    public void test(){
+    public void test(){*/
         Connection connection = null;
         Statement statement = null;
         ResultSet resultSet = null;
         try {
-            connection = test01.JdbcUtils.getConnection();
+            connection = JdbcUtils.getConnection();
             statement = connection.createStatement();
             resultSet = statement.executeQuery("select * from products");
             while (resultSet.next()){
@@ -29,13 +28,13 @@ public class JdbcTest {
                 Object pname = resultSet.getObject("pname");
                 Object price = resultSet.getObject("price");
                 Object flag = resultSet.getObject("flag");
-                Object category_id = resultSet.getObject("category_id");
-                System.out.println(pid+"\t"+pname+"\t"+price+"\t"+flag+"\t"+category_id);
+                Object categoryId = resultSet.getObject("category_id");
+                System.out.println(pid+"\t"+pname+"\t"+price+"\t"+flag+"\t"+categoryId);
             }
-        } catch (Exception e) {
+        } catch (Exception ignored) {
 
         } finally {
-            test01.JdbcUtils.closeAll(resultSet,statement,connection);
+            JdbcUtils.closeAll(resultSet,statement,connection);
         }
     }
 }
