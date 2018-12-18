@@ -10,7 +10,10 @@ public class Ex03 {
         JiaoTiChouJiang jt = new JiaoTiChouJiang();
         Thread cjxA = new Thread(jt, "抽奖箱A");
         Thread cjxB = new Thread(jt, "抽奖箱B");
+        Thread cjxC= new Thread(jt, "抽奖箱C");
         cjxA.start();
         cjxB.start();
+        cjxC.start();
+
     }
 }
